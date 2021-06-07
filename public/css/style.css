@@ -1,0 +1,175 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.text_container{
+    margin: 10px;
+    padding: 25px;
+
+}
+
+.text_container h2{
+    margin: 45px;
+}
+
+.text_container span{
+    background: rgba(1, 1, 230, 0.644);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.cta_button{
+    background: rgba(1, 1, 230, 0.644);
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    box-shadow: 8px 4px 20px 4px black;
+    border-radius: 24px;
+    
+}
+
+.cta_button:hover{
+    color:white;
+    box-shadow: 8px 4px 10px 4px black;
+    /* transform: translate("25px"); */
+}
+
+
+/* navbar style  */
+.navbar{
+    background: rgb(71, 63, 63);
+    
+}
+/* for carosel */
+.carousel_container {
+    width: 501px;
+    margin-left: 200px;
+    height: 500px;
+}
+
+.carousel_container img{
+    width: 501px;
+    height: 500px;
+}
+
+
+/* about page css */
+.aboutme_img{
+    width: 501px;
+    height: 700px !important;
+}
+
+/* footer style  */
+footer{
+    /* background: black; */
+    background: rgb(71, 63, 63);
+    width: 100%;
+    margin-top: auto;
+    color:white;
+    align-items: center;
+    text-align: center;
+    line-height: 3;
+}
+
+
+/* weather page styling */
+
+.searchbox{
+    display: flex;
+}
+
+.searchbar{
+    height: 46px;
+    width: 638px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    background: rgb(71, 63, 63);
+    border-radius: 25px;
+}
+.searchbar::placeholder{
+    color: white;
+}
+
+.submit{
+    height: 46px;
+    width: 140px;
+    margin-top: 60px;
+    background: rgba(47, 44, 231, 0.986);
+    position: absolute;
+    left: 1146px;
+    border-radius: 0 250px 250px 0 ;
+}
+
+.display_container{
+    display: flex;
+    flex-direction: column;
+}
+.display_head{
+    background: rgb(58, 52, 52);
+    width: 600px;
+    height: 60px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 25px;
+}
+
+.display{
+    background: rgb(71, 63, 63);
+    height: 300px;
+    width: 556px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.text_city{
+    margin: 50px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+   
+}
+
+.temp{
+    margin: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.temp_status{
+    /* margin-top: auto; */
+    margin-left: -220px;
+    font-size:4em;
+
+}
+
+.data_hide{
+    visibility: hidden;
+}
+
+.temp .icon_container{
+    margin-left:auto ;
+    margin-right: -180px;
+    font-size: 4em;
+}
